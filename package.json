@@ -1,0 +1,23 @@
+{
+  "name": "test_knight",
+  "version": "0.1.0",
+  "description": "A peer-to-peet encryption based system",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve":"browser-sync start --server --files '*.html *.css *.js' --browser 'google-chrome'"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guleriakrish/test_KNIGHT.git"
+  },
+  "author": "guleriakrish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guleriakrish/test_KNIGHT/issues"
+  },
+  "homepage": "https://github.com/guleriakrish/test_KNIGHT#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.4"
+  }
+}
