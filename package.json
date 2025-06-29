@@ -5,8 +5,9 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve":"browser-sync start --server --files '*.html *.css *.js' --browser 'google-chrome'"  
+    "serve": "browser-sync start --server --files '*.html *.css *.js' --browser 'google-chrome'"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guleriakrish/test_KNIGHT.git"
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/guleriakrish/test_KNIGHT#readme",
   "devDependencies": {
     "browser-sync": "^3.0.4"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.10"
   }
 }

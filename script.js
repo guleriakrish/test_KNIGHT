@@ -1,1 +1,4 @@
-console.log("THIS IS THE FILE CREATED IN GITHUB");
+import fs from "fs";
+
+console.log(fs);
+console.log("THIS IS WHERE IT ENDS")
